@@ -1,6 +1,6 @@
 # Solwood
 
-A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC) [Ponytail](https://github.com/DietrichGebert/ponytail) and the [Graphify](https://github.com/Graphify-Labs/graphify) skill.
+A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC), [Ponytail](https://github.com/DietrichGebert/ponytail), and the [Graphify](https://github.com/Graphify-Labs/graphify) and [Archify](https://github.com/tt-a1i/archify) skills.
 
 ## Getting started with Claude Code
 
@@ -17,4 +17,5 @@ A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC
 | `.claude/settings.json` | Enables the ECC and Ponytail plugins at project scope |
 | `.claude/rules/ecc/common/` | ECC's language-agnostic rules (coding style, security, testing, git workflow) |
 | `.claude/skills/graphify/` | Graphify's `/graphify` skill; its hooks are in `.claude/settings.json` |
+| `.claude/skills/archify/` | Archify's diagram and explainer skill (needs Node.js 18+) |
 | `CLAUDE.md` | Project instructions for Claude Code |

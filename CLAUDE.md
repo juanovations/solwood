@@ -29,6 +29,16 @@ The `/graphify` skill from [Graphify](https://github.com/Graphify-Labs/graphify)
 - `.claude/settings.json` runs `graphify hook-guard` before Bash, Grep, Read and Glob calls to nudge Claude toward the graph, and after context compaction. The hooks fail open and only advise (strict mode is off). Without the CLI on PATH they print a harmless `command not found` error.
 - Graph output goes to `graphify-out/`, which is git-ignored.
 
+## Archify
+
+The `archify` skill from [Archify](https://github.com/tt-a1i/archify) (v3.3.1) lives in `.claude/skills/archify/`, copied unchanged from upstream.
+
+- It turns descriptions, Mermaid or repository code into validated, interactive HTML diagrams (architecture, sequence, data-flow, ERD, timeline and more) and one-page explainers.
+- It needs Node.js 18+. Check the install with `node .claude/skills/archify/bin/archify.mjs doctor`.
+- It has no hooks and no telemetry. Delivering a diagram makes one read-only update check; never update it unless asked.
+- By default it may build an explainer page unasked for complex answers. Add `[archify explainer: on-demand]` here to limit pages to explicit requests.
+- To update, replace `.claude/skills/archify/` with the `archify/` folder from a newer upstream release.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
