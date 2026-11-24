@@ -20,3 +20,11 @@ This repo also enables [Ponytail](https://github.com/DietrichGebert/ponytail) (`
 
 - Its skills include `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt` and `/ponytail-help`.
 - Where Ponytail's "write less" guidance and an ECC rule disagree, ECC's security and testing rules win.
+
+## Graphify
+
+The `/graphify` skill from [Graphify](https://github.com/Graphify-Labs/graphify) lives in `.claude/skills/graphify/` (copied from upstream, skill files only).
+
+- It needs the Graphify CLI on PATH: `uv tool install graphifyy` (or `pipx install graphifyy`).
+- No Graphify hooks are installed in this repo, so nothing intercepts Claude's reads or searches. Do not run `graphify install`, `graphify claude install` or `graphify hook install` here unless the team decides to turn hooks on.
+- Graph output goes to `graphify-out/`, which is git-ignored.
