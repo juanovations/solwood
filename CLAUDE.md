@@ -36,6 +36,15 @@ The [Napkin](https://github.com/blader/napkin) skill (v6) lives in `.claude/skil
 - `.claude/napkin.md` is committed and shared with everyone working on Solwood. Never put secrets or personal details in it.
 - ECC also has learning features (`/ecc:learn`). Keep durable repo guidance in the napkin rather than in a second store.
 
+## claude-mem
+
+This repo also enables [claude-mem](https://github.com/thedotmack/claude-mem) (`claude-mem@thedotmack`), which gives Claude automatic memory across sessions.
+
+- Its hooks hand every prompt and tool call to a local worker, which uses an observer model to summarize them. Memory is stored per machine in `~/.claude-mem` (SQLite plus Chroma), not in this repo.
+- Each machine needs `npx claude-mem install` once; without it the hooks report that `claude-mem` is not found.
+- Anonymous telemetry is on by default. Turn it off with `npx claude-mem telemetry disable`. Cloud sync to cmem.ai is opt-in; leave it off unless the team decides otherwise.
+- Shared, reviewable repo guidance still belongs in `.claude/napkin.md`; claude-mem is each person's private recall.
+
 ## Graphify
 
 The `/graphify` skill from [Graphify](https://github.com/Graphify-Labs/graphify) lives in `.claude/skills/graphify/` (installed with `graphify install --project`).

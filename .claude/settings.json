@@ -38,7 +38,8 @@
   "enabledPlugins": {
     "ecc@ecc": true,
     "ponytail@ponytail": true,
-    "founder-skill@founder-skill": true
+    "founder-skill@founder-skill": true,
+    "claude-mem@thedotmack": true
   },
   "extraKnownMarketplaces": {
     "ecc": {
@@ -57,6 +58,12 @@
       "source": {
         "source": "github",
         "repo": "Jakeschincariol/founder-skill"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
       }
     }
   }
