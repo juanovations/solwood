@@ -1,0 +1,28 @@
+{
+  "_note": "PLACEHOLDERS. Every number below is a generic assumption, not Solwood data. Replace each with real figures for the site, then rerun: python3 feasibility/proforma.py",
+
+  "units": 6,
+  "unit_sqft": 900,
+
+  "land_value": 300000,
+  "hard_cost_per_sqft": 250,
+  "site_work": 150000,
+  "soft_cost_pct_of_hard": 0.20,
+  "contingency_pct_of_hard": 0.10,
+
+  "construction_months": 12,
+  "construction_loan_ltc": 0.70,
+  "construction_rate": 0.08,
+  "construction_avg_draw": 0.55,
+
+  "rent_per_unit_month": 2000,
+  "other_income_per_unit_month": 50,
+  "vacancy_pct": 0.05,
+  "opex_pct_of_egi": 0.35,
+
+  "exit_cap_rate": 0.06,
+
+  "perm_loan_ltv": 0.70,
+  "perm_rate": 0.065,
+  "perm_amort_years": 30
+}
