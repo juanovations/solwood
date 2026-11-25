@@ -28,6 +28,14 @@ This repo also enables [The Founder skill](https://github.com/Jakeschincariol/fo
 - Skills are namespaced: `/founder-skill:founder-board`, `founder-competitors`, `founder-consumer`, `founder-pricing`, `founder-cfo`, `founder-offer`, `founder-marketing`, `founder-brand`, `founder-ops`, `founder-launch` and `founder-plan`.
 - Its helper scripts need Python 3.8+ and use only the standard library. No hooks.
 
+## Napkin
+
+The [Napkin](https://github.com/blader/napkin) skill (v6) lives in `.claude/skills/napkin/`, copied from upstream. It keeps a curated runbook of recurring mistakes, fixes and user directives in `.claude/napkin.md`.
+
+- It is always active: read and curate `.claude/napkin.md` at the start of every session and update it when you learn something reusable.
+- `.claude/napkin.md` is committed and shared with everyone working on Solwood. Never put secrets or personal details in it.
+- ECC also has learning features (`/ecc:learn`). Keep durable repo guidance in the napkin rather than in a second store.
+
 ## Graphify
 
 The `/graphify` skill from [Graphify](https://github.com/Graphify-Labs/graphify) lives in `.claude/skills/graphify/` (installed with `graphify install --project`).

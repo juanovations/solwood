@@ -1,6 +1,6 @@
 # Solwood
 
-A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC), [Ponytail](https://github.com/DietrichGebert/ponytail), [Founder](https://github.com/Jakeschincariol/founder-skill), and the [Graphify](https://github.com/Graphify-Labs/graphify) and [Archify](https://github.com/tt-a1i/archify) skills.
+A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC), [Ponytail](https://github.com/DietrichGebert/ponytail), [Founder](https://github.com/Jakeschincariol/founder-skill), and the [Graphify](https://github.com/Graphify-Labs/graphify), [Archify](https://github.com/tt-a1i/archify) and [Napkin](https://github.com/blader/napkin) skills.
 
 ## Getting started with Claude Code
 
@@ -18,4 +18,6 @@ A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC
 | `.claude/rules/ecc/common/` | ECC's language-agnostic rules (coding style, security, testing, git workflow) |
 | `.claude/skills/graphify/` | Graphify's `/graphify` skill; its hooks are in `.claude/settings.json` |
 | `.claude/skills/archify/` | Archify's diagram and explainer skill (needs Node.js 18+) |
+| `.claude/skills/napkin/` | Napkin: Claude keeps a shared runbook of lessons learned |
+| `.claude/napkin.md` | The shared napkin runbook (committed) |
 | `CLAUDE.md` | Project instructions for Claude Code |
