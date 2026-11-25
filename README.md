@@ -1,6 +1,18 @@
 # Solwood
 
-A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC), [Ponytail](https://github.com/DietrichGebert/ponytail), [Founder](https://github.com/Jakeschincariol/founder-skill), [claude-mem](https://github.com/thedotmack/claude-mem), and the [Graphify](https://github.com/Graphify-Labs/graphify), [Archify](https://github.com/tt-a1i/archify) and [Napkin](https://github.com/blader/napkin) skills.
+Solwood's first development: a 6-unit, 2-bedroom build-to-rent apartment building on land Solwood owns.
+
+## Feasibility
+
+```bash
+python3 feasibility/proforma.py
+```
+
+This reads `feasibility/inputs.json` and writes [`feasibility/REPORT.md`](feasibility/REPORT.md). The inputs are placeholders: replace them with your land value, construction quotes, local rents, operating costs and loan terms. Run the tests with `python3 -m unittest discover feasibility`.
+
+## Tooling
+
+Set up for Claude Code with [ECC](https://github.com/affaan-m/ECC), [Ponytail](https://github.com/DietrichGebert/ponytail), [Founder](https://github.com/Jakeschincariol/founder-skill), [claude-mem](https://github.com/thedotmack/claude-mem), and the [Graphify](https://github.com/Graphify-Labs/graphify), [Archify](https://github.com/tt-a1i/archify) and [Napkin](https://github.com/blader/napkin) skills.
 
 ## Getting started with Claude Code
 

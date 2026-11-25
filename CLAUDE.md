@@ -4,7 +4,11 @@ Guidance for Claude Code when working in the Solwood repository.
 
 ## Project
 
-Solwood is a new project. Describe what it does, its stack, and how to run and test it here as it takes shape.
+Solwood is a residential development company. This repo starts with one project: a **6-unit, 2-bedroom apartment building, built to rent, on land Solwood already owns**.
+
+- `feasibility/` holds the development pro forma. Edit `feasibility/inputs.json`, then run `python3 feasibility/proforma.py` to regenerate `feasibility/REPORT.md` (total cost, NOI, yield on cost, value, DSCR, refinance, sensitivity).
+- Test with `python3 -m unittest discover feasibility`. Python 3.8+, standard library only.
+- The shipped inputs are generic placeholders, not site data. Never present `REPORT.md` figures as real until the inputs have been replaced and the source of each noted.
 
 ## ECC
 
