@@ -9,6 +9,7 @@ A new project, set up for Claude Code with [ECC](https://github.com/affaan-m/ECC
 3. Optional: run `/plugin configure ecc@ecc` to pick a hook profile (`minimal`, `standard` or `strict`; default `standard`) or turn hooks off.
 4. Optional: run `/plugin configure ponytail@ponytail` to change Ponytail's settings. By default it logs each task's cost and token use to a local CSV under `~/.config/ponytail/` and sends nothing off your machine.
 5. Optional, for `/graphify`: install the Graphify CLI with `uv tool install graphifyy` (needed for `/graphify` and the Graphify hooks). Then run `/graphify .` in Claude Code to build a knowledge graph of the repo in `graphify-out/`.
+6. For claude-mem: run `npx claude-mem install` once on your machine to set up its worker. Run `npx claude-mem telemetry disable` if you don't want anonymous usage analytics.
 
 ## What's included
 
