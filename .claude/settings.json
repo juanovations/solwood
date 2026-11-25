@@ -1,22 +1,4 @@
 {
-  "enabledPlugins": {
-    "ecc@ecc": true,
-    "ponytail@ponytail": true
-  },
-  "extraKnownMarketplaces": {
-    "ecc": {
-      "source": {
-        "source": "github",
-        "repo": "affaan-m/ECC"
-      }
-    },
-    "ponytail": {
-      "source": {
-        "source": "github",
-        "repo": "DietrichGebert/ponytail"
-      }
-    }
-  },
   "hooks": {
     "PreToolUse": [
       {
@@ -52,5 +34,30 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "ecc@ecc": true,
+    "ponytail@ponytail": true,
+    "founder-skill@founder-skill": true
+  },
+  "extraKnownMarketplaces": {
+    "ecc": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "founder-skill": {
+      "source": {
+        "source": "github",
+        "repo": "Jakeschincariol/founder-skill"
+      }
+    }
   }
 }

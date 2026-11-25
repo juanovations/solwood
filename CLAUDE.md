@@ -21,6 +21,13 @@ This repo also enables [Ponytail](https://github.com/DietrichGebert/ponytail) (`
 - Its skills include `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt` and `/ponytail-help`.
 - Where Ponytail's "write less" guidance and an ECC rule disagree, ECC's security and testing rules win.
 
+## Founder
+
+This repo also enables [The Founder skill](https://github.com/Jakeschincariol/founder-skill) (`founder-skill@founder-skill`): eleven skills that test a business before launch.
+
+- Skills are namespaced: `/founder-skill:founder-board`, `founder-competitors`, `founder-consumer`, `founder-pricing`, `founder-cfo`, `founder-offer`, `founder-marketing`, `founder-brand`, `founder-ops`, `founder-launch` and `founder-plan`.
+- Its helper scripts need Python 3.8+ and use only the standard library. No hooks.
+
 ## Graphify
 
 The `/graphify` skill from [Graphify](https://github.com/Graphify-Labs/graphify) lives in `.claude/skills/graphify/` (installed with `graphify install --project`).
